@@ -1,0 +1,366 @@
+/* resetar Css */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Varela Round", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* variaveis */
+:root {
+    --vermelho: #fc2b1c;
+    --verde: rgb(149, 243, 27);
+    --azul: #09eaf1;
+    /* --aqua: #12f7ff; */
+}
+
+/* menu topo */
+#top {
+    height: 70px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#listaMenu {
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 30px;
+    align-items: center;
+    height: 100%;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+/* botoes de trocar a cor */
+#listaCores {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin-left: 50px;
+    border-bottom: #fff solid 2px;
+    padding-bottom: 5px;
+}
+
+.itemCores {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border: 3px solid #fff;
+    border-radius: 11px;
+}
+
+#backVermelho {
+    background-color: var(--vermelho);
+}
+
+#backVerde {
+    background-color: var(--verde);
+}
+
+#backAqua {
+    background-color: var(--azul);
+}
+
+/*Conteudo*/
+#bckColor {
+    background-color: var(--verde);
+}
+
+#condetudo {
+    display: flex;
+    flex-direction: column;
+    height: 870px;
+    padding-top: 200px;
+    justify-content: space-between;
+}
+
+#divsobreContact {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* texto com nome e desc */
+#divSobre {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 240px;
+    width: 1004px;
+}
+
+#nome {
+    font-size: 8em;
+}
+
+#sobre {
+    font-size: 3em;
+}
+
+/* formulario de contato */
+#divContato {
+    height: 600px;
+    margin-top: -100px;
+    margin-right: 70px;
+    box-shadow: 0 0 8px #888;
+    padding: 40px;
+    opacity: 0;
+    transition: opacity 1s ease;
+    display: none;
+}
+
+#contacForm {
+    /* background-color: #2e2e30; */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#fecharContato {
+    color: #fff;
+}
+
+#contacForm h2 {
+    margin-bottom: 50px;
+}
+
+#contacForm h2 span {
+    margin-left: 290px;
+    font-size: 2.3em;
+    cursor: pointer;
+    font-weight: lighter;
+}
+
+.inputs {
+    border-color: #fff;
+    background-color: transparent;
+    border-style: none none solid none;
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 3px;
+}
+
+#inputNome {
+    text-transform: capitalize;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+#btnContato {
+    height: 34px;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/* redes sociais */
+#redesLista {
+    z-index: 1;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.itemRedes {
+    width: 70px;
+    cursor: pointer;
+}
+
+#redesSociais {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+/* seta para os projetos */
+#divSeta {
+    position: absolute;
+    top: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#seta {
+    font-size: 4em;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*Projetos*/
+#divProjetos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+#tituloProj {
+    width: 936px;
+    margin: auto;
+}
+
+#slides{
+    height: 1598px;
+    width: 936px;
+    overflow: hidden;
+    margin: auto;
+}
+
+#divProjTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 936px;
+    margin: auto;
+}
+
+#projetoContainer {
+    display: flex;
+    flex-direction: row;
+    height: 1598px;
+    width: 936px;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 1598px;
+    width: 936px;
+    gap: 30px;
+    margin: auto;
+    transition: transform 0.5s ease-in-out;
+}
+
+.projetos {
+    cursor: pointer;
+    width: 936px;
+    height: 480px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 50px 50px;
+    border: 1px solid #b1b1b1;
+    text-shadow: 0 0 5px #000000;
+}
+
+.nomeProjeto {
+    font-size: 4em;
+}
+
+.descProjeto {
+    font-size: 1.5em;
+}
+
+.divBotao {
+    background-color: rgb(255, 102, 0);
+    width: 150px;
+    height: 45px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+}
+
+#projLoja {
+    background-image: url(/imagens/projLojaCaptura.png);
+    background-size: cover;
+}
+
+#projPedagio {
+    background-image: url(/imagens/projPedagioCaptura.png);
+    background-size: cover;
+}
+
+#projTrab {
+    background-image: url(/imagens/projCalculoTrabCaptura.png);
+    background-size: cover;
+}
+
+#projCordel {
+    background-image: url(/imagens/projCordelCaptura.png);
+    background-size: cover;
+}
+
+#projIMC {
+    background-image: url(/imagens/projCalculadoraImcCaptura.png);
+    background-size: cover;
+}
+
+#projAndroid {
+    background-image: url(/imagens/porjAndroidCaptura.png);
+    background-size: cover;
+}
+
+
+#proxPag {
+    background-color: rgb(255, 102, 0);
+    height: 50px;
+    color: #fff;
+    margin: auto;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#btnTopo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 102, 0);
+    height: 50px;
+    color: #fff;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*animaçoes*/
+#seta:hover {
+    animation: setaHover 0.5s forwards;
+}
+
+@keyframes setaHover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-15px);
+    }
+}

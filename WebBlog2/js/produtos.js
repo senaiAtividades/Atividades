@@ -3,25 +3,25 @@ const divProdutos = document.querySelector(".divProdutos");
 const listaProdutos = [
     {
         id: 1,
-        camisa: "../imagens/camisaAmarela1.jpg",
+        camisa: "imagens/camisaAmarela1.jpg",
         nome: 'Blusa',
         preco: '50,00',
     },
     {
         id: 2,
-        camisa: "../imagens/camisaCosta.jpg",
+        camisa: "imagens/camisaCosta.jpg",
         nome: 'Blusa',
         preco: '50,00',
     },
     {
         id: 3,
-        camisa: "../imagens/camisaAmarela.jpg",
+        camisa: "imagens/camisaAmarela.jpg",
         nome: 'Blusa',
         preco: '50,00',
     },
     {
         id: 4,
-        camisa: "../imagens/camisaAmarela4.jpg",
+        camisa: "imagens/camisaAmarela4.jpg",
         nome: 'Blusa',
         preco: '50,00',
     },

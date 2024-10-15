@@ -1,0 +1,111 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: idroid;
+}
+
+body {
+    background-color: greenyellow;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+#content {
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    background-color: green;
+}
+
+#head {
+    width: 100%;
+    background-color: aquamarine;
+    background: rgb(102, 170, 123);
+    background: linear-gradient(180deg, rgba(102, 170, 123, 1) 3%, rgba(45, 112, 66, 1) 49%, rgba(9, 55, 32, 1) 97%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#desc {
+
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+}
+
+#listaMenu, a{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    list-style: none;
+    color: #fff;
+
+}
+
+.menuItem:hover, .menuItem > a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+#contato{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#listaContato{
+    border: 5px solid #fff;
+    border-radius: 5px;    
+}
+
+.itemContato{
+    color: #fff;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.itemContato:nth-child(even){
+    background-color: #13db1d;
+    width: 100%;
+}
+
+h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}

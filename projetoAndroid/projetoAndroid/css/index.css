@@ -1,0 +1,178 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: idroid;
+}
+
+body {
+    background-color: greenyellow;
+}
+
+a{
+    text-decoration: none;
+}
+
+#content {
+    margin: auto;
+    width: 70%;
+    background-color: #fff;
+}
+
+p {
+    text-indent: 50px;
+}
+
+
+#head {
+    width: 100%;
+    background-color: aquamarine;
+    background: rgb(102, 170, 123);
+    background: linear-gradient(180deg, rgba(102, 170, 123, 1) 3%, rgba(45, 112, 66, 1) 49%, rgba(9, 55, 32, 1) 97%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 30px;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 15px;
+    align-items: center;
+
+}
+
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#desc {
+
+    font-size: 1em;
+    color: #fff;
+    font-style: italic;
+}
+
+#listaMenu, a{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    list-style: none;
+    color: #fff;
+
+}
+
+.menuItem:hover, .menuItem > a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+/*----------------------------------------*/
+.imagens {
+    height: 260px;
+    
+}
+
+.imgUm {
+    background-image: url(/projetoAndroid/imagens/dan-droids.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.imgDois {
+    background-image: url(/projetoAndroid/imagens/irina-blok.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*----------------------------------------*/
+#pagina {
+    padding: 15px;
+}
+
+.tituloParagafro {
+    color: green;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgba(255, 255, 255, 1) 15%, rgba(158, 237, 183, 1) 92%, rgba(102, 203, 152, 1) 99%);
+    font-size: 1.3em;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+
+#tituloArtigo {
+    color: green;
+    font-size: 1.5em;
+}
+
+#divIframe {
+    text-align: center;
+    margin: 20px 0;
+}
+
+iframe {
+    border: 5px red solid;
+    border-radius: 5px;
+
+}
+
+#extra {
+    color: black;
+}
+
+#chamada {
+    color: #fff;
+    background-color: greenyellow;
+    font-weight: bold;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+
+}
+
+#extraDiv {
+
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+#divListaExtra {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 60px;
+    padding-left: 160px;
+}
+
+.listaExtra {
+    list-style: url(/projetoAndroid/imagens/icons8-correct-windows-metro/icons8-correct-13.png);
+    font-weight: bold;
+    
+}
+
+#extraConteudo {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+
+
+#rodape {
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+    width: 100%;
+    color: #fff;
+}

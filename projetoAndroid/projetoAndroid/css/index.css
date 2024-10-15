@@ -81,7 +81,7 @@ p {
 }
 
 .imgUm {
-    background-image: url(/projetoAndroid/imagens/dan-droids.png);
+    background-image: url(../imagens/dan-droids.png);
 
     background-position: center;
     background-repeat: no-repeat;

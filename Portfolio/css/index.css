@@ -88,7 +88,7 @@ body {
 #condetudo {
     display: flex;
     flex-direction: column;
-    height: 870px;
+    height: 865px;
     padding-top: 200px;
     justify-content: space-between;
 }
@@ -319,7 +319,7 @@ label {
 }
 
 #projAndroid {
-    background-image: url(/imagens/porjAndroidCaptura.png);
+    background-image: url(Portfolio/imagens/porjAndroidCaptura.png);
     background-size: cover;
 }
 

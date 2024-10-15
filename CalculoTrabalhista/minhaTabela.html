@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/minhaTabela.css">
+    <script src="/js/minhaTabela.js" defer></script>
+
+</head>
+
+<body>
+    <div id="conteudo">
+        <div id="top">
+            <div id="logo">
+                <h1>Cálculo Trabalhista</h1>
+            </div>
+            <nav>
+                <div id="menu">
+                    <ul id="listaMenu">
+                        <li class="menuItem"><a href="index.html">Home</a></li>
+                        <li class="menuItem"><a href="aliquotas.html">Alíquotas</a></li>
+                        <li class="menuItem"><a href="minhaTabela.html">Minha Tabela</a></li>
+                        <li class="menuItem"><a href="faleConosco.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div id="mid">
+
+            <div id="formContainer">
+                <div class="titulo">
+                    Valores
+                </div>
+                <div id="form">
+
+                    <div class="inputContainer">
+                        <label for="valorHoraInput">Valor/Hora:</label>
+                        <input type="number" id="valorHoraInput" class="inputs">
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="horasTrabalhadasInput">Horas Trabalhadas:</label>
+                        <input type="number" id="horasTrabalhadasInput" class="inputs">
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="valeTransporteInput">ValeTransporte:</label>
+                        <input type="checkbox" id="valeTransporteInput" value="s" name="chkBox">
+                        
+                    </div>
+
+                    <div class="inputContainer">
+                        <label for="outrasDeducoesInput">Outras Deduções:</label>
+                        <input type="number" id="outrasDeducoesInput" class="inputs">
+                    </div>
+
+                    <button type="submit" id="btnEnviar">Enviar</button>
+                </div>
+            </div>
+
+            <div id="divResultado">
+                <h3 class="titulo">Resultado</h3>
+                <ul>
+                    <li class="resultItens">Salario Bruto: <div id="salarioResult" class="displayItem"></div></li>
+                    <li class="resultItens">Desconto INSS: <div id="descontoInssResult" class="displayItem"></div></li>
+                    <li class="resultItens">Desconto IRPF: <div id="descontoIrpfResult" class="displayItem"></div></li>
+                    <li class="resultItens">Desconto Vale Transporte: <div id="descontoValeResult" class="displayItem"></div></li>
+                    <li class="resultItens">Outras Deducoes: <div id="outrasDeducoesResult" class="displayItem"></div></li>
+                    <li class="resultItens">Salario liquido: <div id="salarioLiquidoResult" class="displayItem"></div></li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

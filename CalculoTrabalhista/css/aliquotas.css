@@ -1,0 +1,28 @@
+#divAliquotas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.tabelaTtiulo{
+    font-size: 2em;
+}
+
+table{
+    width: 600px;
+    font-size: 1.5em;
+}
+
+.coluna {
+    background-color: rgba(240, 20, 20, 0.8);
+    text-align: center;
+}
+
+tbody{
+    text-align: center;
+}
+
+tbody > tr:nth-child(even){
+    background-color: aqua;
+}

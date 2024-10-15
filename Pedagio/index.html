@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedágio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script src="/js/index.js" defer></script>
+</head>
+
+<body>
+    <div id="content">
+
+        <div id="divPedagio">
+
+            <div id="top">
+                <img src="/imagens/icones/carro-suv.png" id="iconeCar" class="icones">
+                <img src="/imagens/icones/frente-do-caminhao-de-entrega.png" id="iconeCaminhao" class="icones">
+                <img src="/imagens/icones/bus.png" id="iconeBus" class="icones">
+                <img src="/imagens/icones/moto.png" id="iconeMoto" class="icones">
+            </div>
+
+            <div id="mid">
+
+                <div id="divInputs">
+                    <label for="inputPlaca">Placa</label>
+                    <input type="text" id="inputPlaca" name="start" class="inputs">
+                    <label for="inputInicio">Hora De Partida</label>
+                    <input type="time" id="inputInicio" class="inputs">
+                    <label for="inputFinal">Hora De Chegada</label>
+                    <input type="time" id="inputFinal" name="end" class="inputs">
+                </div>
+
+            </div>
+
+            <div id="bot">
+
+                <div id="divButtons">
+
+                    <div id="divBtnCalcImp" class="btns">
+
+                        <button id="btnCalc">Calcular</button>
+                        <div id="divisoria"></div>
+                        <div id="divBtnImprimir" onclick="window.print('divImpressao');">
+                            <i class="fi fi-rr-print" id="btnImprimir"></i>
+                        </div>
+
+                    </div>
+                    <button id="btnTurnoInicio" class="btns">Iniciar Turno</button>
+                    <button id="btnTurnoFim" class="btns">Finalizar Turno</button>
+
+                </div>
+                <div id="divInfos">
+                    <div class="infos">
+                        Tarifa: R$ 20,00
+                    </div>
+                    <div class="infos">
+                        Distância: 120 km
+                    </div>
+                </div>
+
+            </div>
+        </div><!--Fim Div Pedagio-->
+
+        <div id="divRelatorio">
+            <div>Menor velocidade registrada:<span id="menorVelShow"></span></div>
+            <div>Maior velocidade registrada:<span id="maiorVelShow"></span></div>
+            <div>Média das velocidades registradas:<span id="mediaVelShow"></span></div>
+            <div>Total dos valores cobrados:<span id="totalValoresShow"></span></div>
+            <div>Hora de início do processamento:<span id="horaInicialShow"></span></div>
+            <div>Hora do final do processamento:<span id="horaFinalShow"></span></div>
+        </div>
+
+        <div id="divImpressao">
+
+            <h2>COBRANÇA</h2>
+            <div id="cobracaDivisoria">
+
+            </div>
+            <div id="itens">
+                <div class="printItem">Placa: <span id="placaPrint"></span></div>
+                <div class="printItem">Hora Da Saída: <span id="horaEntradaPrint"></span></div>
+                <div class="printItem">Hora Da Chegada: <span id="horaSaidaPrint"></span></div>
+                <div class="printItem">Tempo Gasto: <span id="tempoGastoPrint"></span></div>
+                <div class="printItem">Velocidade Média: <span id="velMediaPrint"></span></div>
+                <div class="printItem valorSerPago">Valor A Ser Pago: <span id="pagamentoPrint"></span></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

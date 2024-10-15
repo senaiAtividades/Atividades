@@ -1,0 +1,30 @@
+#divContato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    height: 80vh;
+    
+}
+
+#listaContato{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.liContato{
+    text-align: center;
+    list-style: none;
+    font-size: 2em;
+    
+}
+
+#linkGit{
+    color: #000;
+}
+
+#linkGit:hover{
+    text-decoration: underline;
+}

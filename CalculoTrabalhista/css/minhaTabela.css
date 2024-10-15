@@ -1,0 +1,81 @@
+.titulo{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#formContainer{
+    padding: 30px;
+    padding-left: 60px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: solid rgba(240, 20, 20, 0.8) 30px;
+    border-radius: 3px 3px 0 0;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputs{
+    width: 150px;
+    border-style: none none solid none;
+    outline: none;
+    border-width: 1px;
+    font-size: 1.2em;
+}
+
+#divResultado{
+    width: 600px;
+    padding: 30px;
+    padding-left: 60px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    border: dashed rgba(240, 20, 20, 0.8) 15px;
+    border-radius: 0 0 3px 3px;
+    border-top: none;
+    gap: 30px;
+}
+
+.resultItens{
+    list-style: none;
+    display: flex;
+}
+
+.displayItem{
+    font-size: 1.2em;
+    height: 1.2em;
+}
+
+#btnEnviar{
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(230, 230, 230);
+    border-style: solid;
+    background-color: red;
+    color: #fff;
+    border-width: 1px;
+}
+
+#btnEnviar:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+#btnEnviar:active{
+    background-color: #ececec;
+}

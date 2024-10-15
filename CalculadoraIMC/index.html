@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <form id="calculadora">
+            <div id="titulo">
+                Calculadora IMC
+            </div>
+            <div id="divIdade">
+                <span class="spans">Nome</span>
+                <input type="text" id="inputNome" class="inputs">
+            </div>
+            <div id="divSexo">
+                <div class="radioSex">
+                    <input type="radio" id="radioM" name="radios" value="M" checked>
+                    <label for="radioM">Masculino</label>
+                </div>
+                <div class="radioSex">
+                    <input type="radio" id="radioF" name="radios" value="F">
+                    <label for="radioF">Feminino</label>
+                </div>
+
+            </div>
+            <div id="divPesoAltura">
+                <div id="peso" class="pesoAltura">
+                    <span class="spans">Peso(Kg)</span>
+                    <input type="number" id="inputPeso" class="inputs">
+                </div>
+
+                <div id="altura" class="pesoAltura">
+                    <span class="spans">Altura(Metros)</span>
+                    <input type="number" id="inputAltura" class="inputs">
+                </div>
+            </div>
+            <button id="btnCalc">Calcular IMC</button>
+            <div id="divTela">
+                <span class="spans">Seu IMC É:</span>
+                <div id="divResult">
+
+                </div>
+            </div>
+            <div id="condicao">
+
+            </div>
+        </form>
+
+        <div id="divFalta">
+
+        </div>
+    </div>
+</body>
+
+</html>

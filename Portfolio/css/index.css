@@ -294,22 +294,22 @@ label {
 }
 
 #projLoja {
-    background-image: url(/Portfolio/imagens/projLojaCaptura.png);
+    background-image: url(../imagens/projLojaCaptura.png);
     background-size: cover;
 }
 
 #projPedagio {
-    background-image: url(/Portfolio/imagens/projPedagioCaptura.png);
+    background-image: url(../imagens/projPedagioCaptura.png);
     background-size: cover;
 }
 
 #projTrab {
-    background-image: url(/Portfolio/imagens/projCalculoTrabCaptura.png);
+    background-image: url(../imagens/projCalculoTrabCaptura.png);
     background-size: cover;
 }
 
 #projCordel {
-    background-image: url(/Portfolio/imagens/projCordelCaptura.png);
+    background-image: url(../imagens/projCordelCaptura.png);
     background-size: cover;
 }
 
@@ -319,7 +319,7 @@ label {
 }
 
 #projAndroid {
-    background-image: url(Portfolio/imagens/porjAndroidCaptura.png);
+    background-image: url(../imagens/porjAndroidCaptura.png);
     background-size: cover;
 }
 

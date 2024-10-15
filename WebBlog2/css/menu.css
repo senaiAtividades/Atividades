@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+#conteudo {
+    height: 100%;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160px;
+    padding: 10px 10px 0 10px;
+    box-shadow: 0 0 8px #888;
+    width: 100%;
+}
+
+#headTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#marca {
+    margin-left: 90px;
+    font-size: 4em;
+    color: rgb(48, 224, 224);
+    cursor: pointer;
+    font-family: "Mogra", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#marca:hover {
+    transition: 0.5s;
+    color: aquamarine;
+    text-shadow: 3px 3px 3px #15b9be;
+}
+
+#listaMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 50px;
+    font-size: 1.5em;
+    list-style: none;
+    width: 950px;
+    margin-right: 150px;
+    margin-top: 5px;
+
+}
+
+.menuItem {
+    letter-spacing: 4px;
+}
+
+.menuItem span:hover {
+    transition: 0.5s;
+    color: silver;
+    letter-spacing: 3.8px;
+}
+
+.menuItem>a {
+    text-decoration: none;
+    color: black;
+}
+
+.topDiv {
+    box-shadow: 1px 1px 2px #888;
+    height: 25px;
+    width: 1px;
+}
+
+#headBot {
+    height: 140px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fa-bag-shopping {
+    margin: auto;
+    color: white;
+    font-size: 40px;
+}
+
+#cartQuant {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 50% 50% 50% 0;
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+}

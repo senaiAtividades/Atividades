@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <script src="/js/cadastro.js" defer></script>
+
+    <script src="https://kit.fontawesome.com/b2e80b87e7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots&family=Mogra&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="headTop">
+            <div id="logo">
+                <a href="/index.html" id="marca">Logo</a>
+            </div>
+
+            <nav id="menu">
+                <ul id="listaMenu">
+                    <li class="menuItem">
+                        <a href="/index.html">
+                            <i class="fa-solid fa-house"></i> </i><span>Home</span>
+                        </a>
+                    </li>
+                    <div class="topDiv"></div>
+                    <li class="menuItem">
+                        <a href="/cadastro.html">
+                            <i class="fa-solid fa-address-card"></i><span id="cadastro">Cadastro</span>
+                        </a>
+                    </li>
+                    <div class="topDiv"></div>
+                    <li class="menuItem">
+                        <a href="/produtos.html">
+                            <i class="fa-solid fa-shirt"></i><span>Produtos</span>
+                        </a>
+                    </li>
+                    <div class="topDiv"></div>
+                    <li class="menuItem">
+                        <a href="/sobre.html">
+                            <i class="fa-solid fa-circle-info"></i><span>Sobre</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="headBot">
+            <a href="/carrinho.html">
+                <div id="carrinho">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <div id=cartQuant>
+                        0
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+    </header>
+
+    <div id="conteudo">
+        <div class="divContainer">
+
+            <div class="divForm">
+                <h2>Registre-se</h2>
+                <input type="text" name="nome" id="inputNome" class="inputs" placeholder="Nome Completo">
+                <input type="text" name="email" id="inputEmail" class="inputs" placeholder="Endereço de E-mail">
+                <input type="password" name="senha" id="inputSenha" class="inputs" placeholder="Senha">
+                <div id="divCheckbox">
+                    <input type="checkbox" name="termos" id="inputTermos">
+                    <label for="inputTermos">Li e aceito os termos de uso.</label>
+                </div>
+
+                <input type="submit" id="btnRegistrar" class="btns" value="Registrar">
+
+                <div id="divMudaRegistro">
+                    <div>Já Possui Cadastro?</div>
+                    <div id="cliqueAqui" class="click">Clique Aqui.</div>
+                </div>
+            </div>
+
+            <div class="divForm divFormLogin esconder">
+                <h2>Login</h2>
+
+                <input type="text" name="emailLogin" id="inputEmailLogin" class="inputs"
+                    placeholder="Endereço de E-mail">
+                <input type="password" name="senhaLogin" id="inputSenhaLogin" class="inputs" placeholder="Senha">
+
+                <input type="submit" id="btnLogar" class="btns" value="Logar">
+
+                <div id="divMudaRegistro">
+                    <div>Não Possui Login?</div>
+                    <div id="cliqueAquiLogin" class="click">Clique Aqui.</div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

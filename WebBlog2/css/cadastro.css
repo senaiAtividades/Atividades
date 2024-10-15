@@ -1,0 +1,96 @@
+#cadastro{
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    background-color: rgb(127, 197, 255);
+    height: 516px;
+    width: 450px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #888;
+}
+
+h2{
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.inputs{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 400px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+#divCheckbox{
+    width: 100%;
+    height: 8px;
+    padding-left: 30px;
+}
+
+.btns{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 400px;
+    border-radius: 8px;
+    padding-left: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #6e6e6e;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#btnLogar{
+    margin-top: 108px;
+}
+
+#divMudaRegistro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    width: 100%;
+    gap: 20px;
+    height: 100px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #fff;
+}
+
+.click{
+    cursor: pointer;
+}
+
+.click:hover{
+    text-decoration: underline;
+    color:  rgb(127, 197, 255);
+}
+
+.divFormLogin{
+    position: absolute;
+}
+
+.esconder{
+    display: none;
+}

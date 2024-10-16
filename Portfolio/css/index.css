@@ -148,6 +148,11 @@ body {
     font-weight: lighter;
 }
 
+#inputMensagem{
+    resize: none;
+    padding: 0 10px;
+}
+
 .inputs {
     border-color: #fff;
     background-color: transparent;

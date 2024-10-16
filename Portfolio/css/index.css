@@ -127,7 +127,6 @@ body {
 }
 
 #contacForm {
-    /* background-color: #2e2e30; */
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -150,7 +149,7 @@ body {
 
 #inputMensagem{
     resize: none;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .inputs {

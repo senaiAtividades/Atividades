@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/js/index.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="divContainer">
+
+        <div id="divInput" class="divForm">
+            <h2>Buscar CEP</h2>
+            <input type="number" name="cep" id="inputCep" class="inputs" placeholder="Digite Aqui O Seu CEP">            
+
+            <input type="submit" id="btnBuscar" class="btns" value="Buscar">
+
+            <div id="divBranca">
+                
+            </div>
+
+
+        </div>
+
+        <div id="divResult" class="divForm esconder">
+            <h2>Resultado</h2>
+            <span>Logradouro</span>
+            <input type="text" name="logradouro" id="inputLogradouro" class="inputs" placeholder="Logradouro" disabled>           
+            <span>Bairro</span>
+            <input type="text" name="bairro" id="inputBairro" class="inputs" placeholder="Bairro" disabled>
+            <span>Cidade</span>
+            <input type="text" name="cidade" id="inputCidade" class="inputs" placeholder="Cidade" disabled>
+            <span>Estado</span>
+            <input type="text" name="uf" id="inputUF" class="inputs" placeholder="UF" disabled>           
+
+            <div id="divBranca">
+                <button id="btnRetornar">Retornar Para CEP</button>
+                
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

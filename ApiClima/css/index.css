@@ -48,7 +48,7 @@ body {
     width: 30px;
     border-radius: 50% 0 0 50%;
     border: 1px solid #707070;
-    border-style: solid solid solid none;
+    border-style: solid none solid solid;
 }
 
 #inputCidade {

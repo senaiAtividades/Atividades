@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div id="conteudo">
+        <div id="dashboard">
+            <div id="caixaPesquisa">
+                <div id="titulo">Clima</div>
+                <div id="divInput">
+                    <div id="bordinha"></div>
+                    <input type="text" name="cidade" id="inputCidade" placeholder="Insira a cidade...">
+                    <button type="submit" id="btnCidade"></button>
+                </div>
+            </div>
+
+            <div id="principal">
+                <div id="topo">
+                    <div id="infoCidade">Previsão do tempo em <span id="nomeCidade">...</span></div>
+                    <div id="dataLocal"></div>
+                </div>
+                <div id="meio" class="esconder">
+                    <div id="divTemp">
+                        <div id="tempertauras">
+                            <div id="tempAtual"></div>
+                            <div id="maxMin">
+                                <div class="divMaxmin">Máxima: <span id="max"></span></div>
+                                <div class="divMaxmin">Mínima: <span id="min"></span></div>
+                            </div>
+                        </div>
+
+                        <div id="infoExtra">
+                            <div id="nuvSens">
+                                <div id="divNuvens"><span id="nuvens">Nublado</span></div>
+                                <div id="divSensacao">Sensação de: <span id="sensacao"></span></div>
+                            </div>
+
+                            <img id="iconeTemps">
+                        </div>
+                    </div>
+
+                    <div id="divVento">
+                        <ul id="listaVento">
+                            <li class="ventoItem">
+                                Visibilidade:
+                                <div id="visibilidade">
+                                    
+                                </div>
+                            </li>
+                            <li class="ventoItem">
+                                Pressão:
+                                <div id="pressao">
+                                    
+                                </div>
+                            </li>
+                            <li class="ventoItem">
+                                Vel Vento:
+                                <div id="velocidade">
+                                    
+                                </div>
+                            </li>
+                            <li class="ventoItem">
+                                Humidade:
+                                <div id="humidade">
+                                    
+                                </div>
+                            </li>
+                           
+                        </ul>
+                    </div>
+
+                    <div id="divSol">
+                        <div id="amanhecer">
+                            <img class="iconeSol" src="/icone/icons8-nascer-do-sol-40.png">
+                            <span>Amanhecer</span>
+                            <span id="horaAmanhecer" class="horaSol">7:40</span>
+                        </div>
+                        <div id="anoitecer">
+                            <img class="iconeSol" src="/icone/icons8-lua-crescente-48.png">
+                            <span>Anoitecer</span>
+                            <span id="horaAnoitecer" class="horaSol">7:40</span>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

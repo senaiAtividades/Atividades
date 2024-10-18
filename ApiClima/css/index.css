@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+/* 
+background-color: #37474f; 
+background-color: #263238;
+*/
+
+body {
+    background-color: #263238;
+}
+
+#dashboard {
+    margin: auto;
+    width: 1500px;
+    margin-top: 60px;
+   
+}
+
+/*Titulo e pesquisa*/
+#caixaPesquisa {
+    background-color: #263238;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titulo {
+    color: #fff;
+    font-size: 2em;
+}
+
+#divInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#bordinha {
+    background-color: #37474f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50% 0 0 50%;
+    border: 1px solid #707070;
+    border-style: solid solid solid none;
+}
+
+#inputCidade {
+    height: 30px;
+    width: 450px;
+    font-size: 1.2em;
+    padding-left: 10px;
+    text-transform: capitalize;
+    color: #263238;
+    border: 1px solid #707070;
+
+}
+
+#btnCidade {
+    background-color: #37474f;
+    height: 30px;
+    width: 30px;
+    border-radius: 0 50% 50% 0;
+    border: 1px solid #707070;
+    border-style: solid solid solid none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../icone/icons8-pesquisar-64.png);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#dataLocal {
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+/*----------------------*/
+
+#principal {
+    box-shadow: 0 0 5px #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #37474f;
+    color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+/*Topo*/
+#topo {
+    align-self: baseline;
+    margin-left: 20px;
+}
+
+#infoCidade {
+    font-size: 1.6em;
+}
+
+#nomeCidade {
+    font-weight: bold;
+}
+
+#dataLocal {
+    font-size: 1.5em;
+}
+
+/*Meio*/
+
+/*Temperatura*/
+#meio {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+#divTemp {
+    background-color: #263238;
+    width: 600px;
+    border-radius: 10px;
+    height: 450px;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#tempertauras {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+#tempAtual {
+    font-size: 5em;
+}
+
+#maxMin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.divMaxmin {
+
+    font-size: 1.5em;
+}
+
+#max,
+#min {
+    font-size: 1.8em;
+}
+
+#infoExtra {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    align-items: center;
+}
+
+#nuvSens {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/*Ventos*/
+#divVento {
+    background-image: url(../icone/111961-OOJZVL-927.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 8px #3a3a3a;
+    width: 450px;
+    background-color: rgb(114, 180, 158);
+    border-radius: 10px;
+    height: 450px;
+   
+}
+
+#listaVento {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.ventoItem {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #ccc;
+    border-style: none none solid none; */
+    font-size: 2em;
+    padding: 10px;
+}
+
+/*sol*/
+#divSol {
+    background-image: url(../icone/112972-OOK5B2-826.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    width: 300px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#amanhecer,
+#anoitecer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.horaSol {
+    font-size: 2.5em;
+}

@@ -327,6 +327,15 @@ label {
     background-size: cover;
 }
 
+#projApiCEP {
+    background-image: url(../imagens/projApiCepCaptura.png);
+    background-size: cover;
+}
+
+#projAPIClima {
+    background-image: url(../imagens/projApiClimaCaptura.png);
+    background-size: cover;
+}
 
 #proxPag {
     background-color: rgb(255, 102, 0);

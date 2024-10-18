@@ -10,7 +10,8 @@ const btnBuscar = document.querySelector("#btnBuscar");
 const btnRetornar = document.querySelector("#btnRetornar");
 
 btnBuscar.addEventListener("click", () => {
-    if(inputCep.value != "" && inputCep.value.length == 8){
+    let cep = inputCep.value;
+    if(cep != "" && cep.length == 8){
     coletarDadosDosInputs(cep);
     divInput.classList.toggle('esconder');
     divResult.classList.toggle('esconder'); 

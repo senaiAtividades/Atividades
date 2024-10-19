@@ -73,7 +73,17 @@ const mostrarDadosClimaApi = async (cidade) => {
     }
 }
 
+inputCidade.addEventListener("keydown", (event) => {
+    if (event.key === 'Enter') {
+        executar();
+    }
+});
+
 btnCidade.addEventListener("click", () => {
+    executar();
+})
+
+const executar = () => {
     let cidade = inputCidade.value;
     if (cidade != "") {
         pegarDadosClimaApi(cidade);
@@ -84,6 +94,5 @@ btnCidade.addEventListener("click", () => {
         alert("Insira uma cidade.");
     }
     inputCidade.value = "";
-
-})
+}
 

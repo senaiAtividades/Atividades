@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+    <title>Mapa Api</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/rota.js" defer></script>
+
+    <!-- carregar/manipular o mapa -->
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs/mapevents.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs/services.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="conteudo">
+        <div id="menu">
+            <div id="top">
+                <div id="menuButton"></div>Menu
+            </div>
+            <div id="bot">Mapa Mundi</div>
+        </div>
+        <div id="divForm">
+
+            <div id="divLogradouro">
+                <input type="text" id="inputLogradouro" placeholder="rua, país, bairro...">
+                <button id="btnLogra">Ir</button>
+            </div>
+
+            <div id="divFaixa">
+
+            </div>
+
+            <div class="linhas">
+                <div class="linha"></div>
+                <span>ou</span>
+                <div class="linha"></div>
+            </div>
+
+            <div id="divCep">
+                <input type="number" id="inputCep" placeholder="Digite o CEP">
+                
+            </div>
+
+            <div class="linhas">
+                <div class="linha"></div>
+                <span>ou</span>
+                <div class="linha"></div>
+            </div>
+
+            <div id="divCoordenadas">
+                <input type="number" id="coordenadaX" class="coordenadas" placeholder="Longitude X">
+                <input type="number" id="coordenadaY" class="coordenadas" placeholder="Latitude Y">                
+            </div>
+            <button id="btnCoord">Marcar Coordenadas</button>
+
+        </div>
+
+        <div id="mapContainer"></div>
+    </div>
+
+</body>
+
+</html>

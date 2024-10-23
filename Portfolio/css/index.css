@@ -337,6 +337,11 @@ label {
     background-size: cover;
 }
 
+#projApiMapa {
+    background-image: url(../imagens/projApiMapaCaptura.png);
+    background-size: cover;
+}
+
 #proxPag {
     background-color: rgb(255, 102, 0);
     height: 50px;
